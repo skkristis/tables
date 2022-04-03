@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+table {
+  margin: auto;
+  background: white;
+}
+/* pirmo tipo kubai */
+tr:nth-child(odd) td:nth-child(odd) {
+  background: orangered;
+  padding: 10px;
+  border: 5px solid white;
+}
+tr:nth-child(even) td:nth-child(even) {
+  background: orangered;
+  padding: 10px;
+  border: 5px solid white;
+}
+tr:nth-child(odd) td:nth-child(odd) div {
+  border: 25px solid limegreen;
+  padding: 15px;
+}
+tr:nth-child(even) td:nth-child(even) div {
+  border: 25px solid limegreen;
+  padding: 15px;
+}
+/* antro tipo kubai */
+tr:nth-child(odd) td:nth-child(even) {
+  background: limegreen;
+  padding: 10px;
+  border: 5px solid white;
+}
+tr:nth-child(even) td:nth-child(odd) {
+  background: limegreen;
+  padding: 10px;
+  border: 5px solid white;
+}
+tr:nth-child(odd) td:nth-child(even) div {
+  border: 25px solid orangered;
+  padding: 15px;
+}
+tr:nth-child(even) td:nth-child(odd) div {
+  border: 25px solid orangered;
+  padding: 15px;
+}
+/* td:nth-child(odd) div {
+  border: 30px solid limegreen;
+}
+td:nth-child(even) div {
+  border: 30px solid orangered;
+} */
+/* td:nth-child(odd) {
+  background: orangered;
+  border: 10px solid white;
+}
+td:nth-child(even) {
+  background: limegreen;
+  border: 10px solid white;
+}
+td:nth-child(odd) div {
+  background: orangered;
+  margin: 10px;
+  padding: 20px;
+  border: 30px solid limegreen;
+}
+td:nth-child(even) div {
+  background: limegreen;
+  margin: 10px;
+  padding: 20px;
+  border: 30px solid orangered;
+} */
+/* Manual apejimas nth child */
+/* th {
+  background: orangered;
+  border: 10px solid white;
+}
+td {
+  background: limegreen;
+  border: 10px solid white;
+}
+th div {
+  background: orangered;
+  margin: 10px;
+  padding: 20px;
+  border: 30px solid limegreen;
+}
+td div {
+  background: limegreen;
+  margin: 10px;
+  padding: 20px;
+  border: 30px solid orangered;
+} */
